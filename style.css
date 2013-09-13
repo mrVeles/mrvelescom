@@ -103,19 +103,19 @@ a,
 	text-decoration: none;
 	transition: 			color .4s 0s ease,
 							border .5s 0s ease-out,
-							background-color .4s 0s linear,
+							background-color .7s 0s ease-out,
 							opacity .3s 0s ease;
 	-o-transition: 			color .4s 0s ease,
 							border .5s 0s ease-out,
-							background-color .4s 0s linear,
+							background-color .7s 0s ease-out,
 							opacity .3s 0s ease;
 	-moz-transition: 		color .4s 0s ease,
 							border .5s 0s ease-out,
-							background-color .4s 0s linear,
+							background-color .7s 0s ease-out,
 							opacity .3s 0s ease;
 	-webkit-transition: 	color .4s 0s ease,
 							border .5s 0s ease-out,
-							background-color .4s 0s linear,
+							background-color .7s 0s ease-out,
 							opacity .3s 0s ease;
 }
 
@@ -164,21 +164,22 @@ header .brand {
 	display: block;
 	margin: 60px auto;
 	text-align: center;
-	width: 70px;
-	height: 70px;
-	border: 5px solid #1b9df7;
-	padding: 13px;
+	width: 50px;
+	height: 50px;
+	background: #444;
+	padding: 8px;
 }
 
 header .brand:hover {
-	border: 5px solid #1e6291;	
+	background: #1b9df7;
 }
 
 header .brand a {
 	display: inline-block;
-	background: url("images/h_logo.svg") no-repeat;
-	width: 70px;
-	height: 70px;
+	background: url("images/h_logo.png") no-repeat;
+	background-size: 50px 50px;
+	width: 50px;
+	height: 50px;
 }
 
 /* BLOG */
@@ -276,7 +277,7 @@ time span.publish {
 }
 
 article .end {
-	background: url("images/p_end.svg") no-repeat center top;
+	background: url("images/p_end.png") no-repeat center top;
 	background-size: 20px 20px;
 	height: 60px;
 	text-align: center;
