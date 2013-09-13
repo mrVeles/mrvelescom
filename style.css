@@ -1,4 +1,40 @@
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700&subset=latin,cyrillic");
+@import url("http://fonts.googleapis.com/css?family=Tinos:400,700,400italic,700italic&subset=latin,cyrillic");
+@import url("http://fonts.googleapis.com/css?family=Roboto+Slab:300&subset=latin,cyrillic");
+@font-face {
+	font-family: "Proxima Nova";
+	src: local("Proxima Nova Bold"), local("ProximaNova-Bold"), url("http://static.tumblr.com/aezi88u/IFxmt2vdt/proximanova-bold-webfont.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Proxima Nova";
+	src: local("Proxima Nova Bold Italic"), local("ProximaNova-Bold-Italic"), url("http://static.tumblr.com/aezi88u/gtDmt2ved/proximanova-boldit-webfont.ttf") format("truetype");
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Proxima Nova";
+	src: local("Proxima Nova"), local("ProximaNova"), url("http://static.tumblr.com/aezi88u/6jxmt2v0z/proximanova-reg-webfont.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Proxima Nova";
+	src: local("Proxima Nova Italic"), local("ProximaNova-Italic"), url("http://static.tumblr.com/aezi88u/E3omt2vd8/proximanova-regit-webfont.ttf") format("truetype");
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Proxima Nova";
+	src: local("Proxima Nova Light"), local("ProximaNova-Light"), url("http://static.tumblr.com/aezi88u/0dmmt2vez/proximanova-light-webfont.ttf") format("truetype");
+	font-weight: 300;
+	font-style: normal;
+}
+
 
 * {
 	margin: 0px;
