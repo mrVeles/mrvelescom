@@ -15,11 +15,12 @@
 	font-style: normal;
 }
 
+
 @font-face {
-	font-family: "Ampersand";
-	src: url("../fonts/ampersand.eot");
-	src: url("../fonts/ampersand.eot?#iefix") format("embedded-opentype"),
-		 url("../fonts/ampersand.ttf") format("truetype");
+	font-family: "Icons";
+	src: url("../fonts/Icons.eot");
+	src: url("../fonts/Icons.eot?#iefix") format("embedded-opentype"),
+		 url("../fonts/Icons.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
 }
@@ -48,22 +49,35 @@ body {
 
 
 [class^="icon-"], [class*=" icon-"] {
-	font-family: "Ampersand";
+	font-family: "Icons";
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
 	text-transform: none;
-	line-height: -2px;
-	font-size: 20px;
-	top: 5px;
-	position: relative;
-	
+	line-height: 1;
+
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-ampersand:before {
+
+.icon-tw:before {
 	content: "\e600";
+}
+.icon-pt:before {
+	content: "\e601";
+}
+.icon-fb:before {
+	content: "\e602";
+}
+.icon-ampersand:before {
+	content: "\e603";
+	position: absolute;
+	margin-top: 6px;
+}
+
+span.nbsp {
+	padding: 0px 35px 0px 0px;
 }
 
 nav {
@@ -119,6 +133,10 @@ a:hover {
 	letter-spacing: 6px;
 	color: #e4cab5;
 	opacity: 0;
+}
+
+#me h4 .icon-ampersand {
+	font-size: 24px;
 }
 
 #tip {
@@ -181,16 +199,9 @@ nav#socials a {
 	width: 40px;
 	height: 40px;
 	background-repeat: no-repeat;
+	font-size: 40px;
 }
 
-.fb {background-image: url("../img/fb.svg");}
-.tw {background-image: url("../img/tw.svg");}
-.pt {background-image: url("../img/pt.svg");}
-
-
-.fb:hover {background-image: url("../img/fb-active.svg");}
-.tw:hover {background-image: url("../img/tw-active.svg");}
-.pt:hover {background-image: url("../img/pt-active.svg");}
 
 
 @media(max-width: 480px) {
