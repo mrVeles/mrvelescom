@@ -38,7 +38,7 @@ body {
 	-webkit-appearance: none;
 
 
-	background: url("../img/background.svg");
+	background: #3b2b22 url("../img/background.svg") top left no-repeat;
 
 	background-size: cover;
 	-o-background-size: cover;
@@ -164,7 +164,7 @@ a:hover {
 	font-family: "Intro";
 	font-size: 12px;
 	color: #e4cab6;
-	max-width: 640px;
+	max-width: 500px;
 	opacity: 0.1;
 	padding: 10px;
 	box-sizing: border-box;
@@ -206,7 +206,7 @@ nav#socials a {
 
 
 
-@media(max-width: 480px) {
+@media (max-width: 480px) {
 	#me h1 {
 		font-size: 36px;
 	}
@@ -215,5 +215,19 @@ nav#socials a {
 		letter-spacing: 3px;
 		font-size: 10px;
 	}
+
+	#description {
+		opacity: 0;
+	}
+
+	#tip {
+		display: none; 
+	}
 }
 
+
+@media (max-width: 1200px) {
+	#description {
+		opacity: 0;
+	}
+}
