@@ -63,20 +63,25 @@ body {
 }
 
 
+
 .icon-tw:before {
 	content: "\e600";
 }
-.icon-pt:before {
+.icon-li:before {
 	content: "\e601";
 }
-.icon-fb:before {
+.icon-pt:before {
 	content: "\e602";
 }
-.icon-ampersand:before {
+.icon-fb:before {
 	content: "\e603";
+}
+.icon-ampersand:before {
+	content: "\e604";
 	position: absolute;
 	margin-top: 6px;
 }
+
 
 span.nbsp {
 	padding: 0px 35px 0px 0px;
