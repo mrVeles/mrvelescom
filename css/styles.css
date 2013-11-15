@@ -83,7 +83,9 @@ body {
 }
 
 
+
 span.nbsp {
+	display: inline-block;
 	padding: 0px 35px 0px 0px;
 }
 
