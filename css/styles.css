@@ -220,7 +220,16 @@ nav#socials a {
 
 	#me h4 {
 		letter-spacing: 3px;
-		font-size: 10px;
+		font-size: 8px;
+	}
+
+	#me .icon-ampersand:before {
+		font-size: 15px;
+		margin-top: 12px;
+	}
+
+	#me .nbsp {
+		padding-right: 17px;
 	}
 
 	#description {
