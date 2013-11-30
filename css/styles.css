@@ -76,6 +76,9 @@ body {
 .icon-fb:before {
 	content: "\e603";
 }
+.icon-ig:before {
+	content: "\e605";
+}
 .icon-ampersand:before {
 	content: "\e604";
 	position: absolute;
