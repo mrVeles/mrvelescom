@@ -251,13 +251,7 @@ nav#socials a {
 }
 
 
-@media (max-width: 1200px) {
-	#description {
-		opacity: 0;
-	}
-}
-
-@media (max-height: 320px) {
+@media (max-height: 380px) {
 	#me {
 		display: block;
 		left: 30px;
@@ -273,26 +267,12 @@ nav#socials a {
 	}
 
 	#me h1, #me h4 {
-		display: block;
-		float: left;
-		margin: 0px 0px 0px 30px;
-		text-align: left;
+		display: none;
 	}
 
 
 	#tip {
 		display: none;
-	}
-
-	#me h1 {
-		margin-top: 20px;
-		font-size: 36px;
-	}
-
-
-	#me h4 {
-		letter-spacing: 3px;
-		font-size: 8px;
 	}
 
 
@@ -322,20 +302,3 @@ nav#socials a {
 
 }
 
-
-@media (max-height: 320px) and (max-width: 480px) {
-	#me #brand {
-		display: none !important;
-	}
-
-	#me h1, #me h4 {
-		margin-right: 0px;
-		margin-left: 0px;
-	}
-}
-
-@media (min-width: 1000px) and (max-height: 640px) {
-	#me h1, #me h4 {
-		display: none;
-	}
-}
