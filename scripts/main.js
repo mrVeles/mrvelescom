@@ -5,7 +5,7 @@ jQuery.fn.centerElement = function() {
 };
 
 (function($, f) {
-	$("#me").centerElement();
+	// $("#me").centerElement();
 
 	$("#brand").animate({opacity: "1"}, 500, "swing", function() {
 		$("h1, h4").animate({opacity: "1"}, 300, "swing", function() {
