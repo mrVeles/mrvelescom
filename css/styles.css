@@ -251,6 +251,12 @@ nav#socials a {
 }
 
 
+@media (max-width: 1024px) {
+	#description {
+		display: none !important;
+	}
+}
+
 @media (max-height: 380px) {
 	#me {
 		display: block;
