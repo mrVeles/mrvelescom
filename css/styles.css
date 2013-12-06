@@ -257,7 +257,7 @@ nav#socials a {
 	}
 }
 
-@media (max-height: 480px) {
+@media (max-height: 320px) {
 	#me {
 		display: block;
 		left: 30px;
@@ -323,7 +323,7 @@ nav#socials a {
 }
 
 
-@media (max-height: 480px) and (max-width: 640px) {
+@media (max-height: 320px) and (max-width: 480px) {
 	#me #brand {
 		display: none !important;
 	}
