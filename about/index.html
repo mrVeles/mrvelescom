@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link href="default.css" rel="stylesheet" />
+        <title>Андрей Велес</title>
+        <meta name="image:bghighlight" content="">
+        <meta name="image:userpicture" content="">
+        <meta name="image:customiconprecomposed" content="">
+        <link rel="apple-touch-icon-precomposed" href="{image:customiconprecomposed}"/>
+		<style>
+/* IMPORTS */
+@import url("http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic&subset=latin,cyrillic");
+@import url("http://fonts.googleapis.com/css?family=Lato:100,300");
+@import url("http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700&subset=latin,cyrillic-ext");
+@import url("http://fonts.googleapis.com/css?family=Roboto:400,100,300,700&subset=latin,cyrillic");
+/* HTML */
+* {
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	outline: 0px;
+}
+
+html, 
+body {
+	background: #fff !important; 
+	font-weight: normal;
+	font-size: 16px;
+	font-family:	"Roboto",
+					Tahoma;
+	overflow-x: hidden;
+	color: #666;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-weight: bold;
+}
+
+h1 {font-size: 26px;}
+h2 {font-size: 24px;}
+h3 {font-size: 22px;}
+h4 {font-size: 20px;}
+h5 {font-size: 18px;}
+
+ul {
+	display: block;
+	list-style: none;
+}
+
+ol {
+    list-style: decimal;
+}
+
+ol li {    
+    list-style: decimal;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    padding-left: 20px;
+}
+/* LINKS */
+a,
+a:active,
+a:visited {
+	color: #4c76c3;
+	text-decoration: none;
+	-webkit-transition: color 0.3s 0.1s ease-in;
+}
+
+a:hover,
+a:visited:hover {
+    color: #7da3ea;
+}
+
+code {
+    font-size: 12px !important;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* MARKUP */
+.wrapper {
+	margin: 0px auto;
+	max-width: 900px;
+	overflow: hidden;
+}
+
+#menu {}
+#header {}
+#card {
+	background: #eee;
+	color: #fff;
+	display: block;
+	margin: 0px auto;
+	padding: 20px 0px 0px;
+	font-family: "Roboto Slab";
+	border-bottom: 4px solid #ddd;
+}
+
+#card #profile {
+	display: block;
+	float: left;
+	width: 700px;
+	position: absolute;
+	z-index: 100;
+}
+
+#card #profile #info {
+	margin-top: 20px;
+}
+
+#card .detail {
+	width: 4px;
+	background: #ddd;
+	display: block;
+	float: left;
+	height: 60px;
+	margin-left: 98px;
+	margin-top: 180px;
+}
+
+	#card a {
+		text-decoration: none;
+	}
+	
+	#card #profile .avatar {
+		display: block;
+		float: left;
+		text-align: left;
+		border-radius: 150px;
+		border: 20px solid #ddd;
+		margin-right: 30px;
+		padding: 4px 4px 0px 4px;
+	}
+
+		#card #profile .avatar img {
+			width: 150px;
+			height: 150px;
+			border-radius: 150px;
+		}
+
+	#card #profile #info .description {
+		font-size: 13px;
+		line-height: 26px;
+		word-spacing: 3px;
+        letter-spacing: 2px;
+		color: #aaa;
+        font-family: "Roboto Slab";
+		font-weight: normal;
+        text-transform: uppercase;
+        text-align: left;
+	}
+
+	#card #profile #info .name {
+		font-size: 40px;
+		text-align: left;
+		font-weight: 300;
+	}
+
+		#card #profile #info .name a {
+			color: #666;
+			-webkit-transition: color 0.3s 0.1s ease-in;
+		}
+
+			#card #profile #info .name a:hover {
+				color: #888;
+			}
+
+	#card ul.menu {
+		margin-bottom: 10px;
+		text-align: right;
+		width: 250px;
+		display: block;
+		float: right;
+		font-family: "Roboto";
+		font-weight: 300;
+		text-transform: uppercase;
+	}
+
+		#card ul.menu li {
+			padding: 0px 3px;
+			line-height: 43px;
+			display: inline-block;
+			font-size: 14px;
+		}
+
+			#card ul.menu li a {
+				color: #fff;
+				padding: 8px 12px;
+				border-radius: 40px;
+				background: #4d98d2;
+				-webkit-transition: background 0.2s 0.1s ease-in;
+			}
+
+			#card ul.menu li a:hover {
+				background: #3c7fb9;
+			}
+
+#main {
+	display: block;
+	width: 100%;
+	min-height: 300px;
+	overflow: hidden;
+}
+
+	#main #content {margin-top: 30px;}
+
+.body {}
+	.body .white {
+		display: block;
+		padding: 20px 0px;
+	}
+
+	.body .gray {
+		display: block;
+		padding: 20px 0px;
+		background: #f5f5f5;
+	}
+
+	.block {font-weight: 300;}
+	.list .row {
+		overflow: hidden;
+		margin-bottom: 20px;
+	}
+	.title {
+		font-weight: 300;
+		text-transform: uppercase;
+		color: #fff;
+		background: #444;
+		padding: 8px 12px;
+		border-radius: 40px;
+		font-size: 21px;
+		display: inline-block;
+		margin: 20px 0px 30px;
+	}
+	.list .item {
+		display: block;
+		float: left;
+		width: 200px;
+		color: #aaa;
+		font-family: "Roboto";
+		font-weight: 100;
+
+	}
+	
+	.list .content {
+		display: block;
+		float: right;
+		width: 670px;
+	}
+
+	
+
+	.experience .main {
+		margin-top: 20px;
+		display: block;
+		float: left;
+		width: 300px;
+	}
+
+	.experience .rows {
+		width: 500px;
+		display: block;
+		float: right;
+	}
+
+		.experience .line {
+			margin-top: 2px;
+			width: 500px;
+			height: 10px;
+			display: block;
+			margin-bottom: 20px;
+		}
+
+	
+
+		.experience .additional {
+			margin-top: 20px;
+			font-size: 13px;
+		}
+
+		.additional .row {
+			background: #fff;
+			border-bottom: 3px solid #eee;
+			padding: 10px 10px;
+		}
+
+
+		.web .line, .web .title {
+			background: #7cb7ea;
+		}
+
+			.web .html {box-shadow: inset 450px 0px 0px #2b5c8d;}
+			.web .css {box-shadow: inset 400px 0px 0px #2b5c8d;}
+			.web .cut {box-shadow: inset 380px 0px 0px #2b5c8d;}
+
+		.design .line, .design .title {	
+			background: #b3cb51;
+		}
+
+			.design .photoshop {box-shadow: inset 440px 0px 0px #7a9022;}
+			.design .ui {box-shadow: inset 480px 0px 0px #7a9022;}
+			.design .usability {box-shadow: inset 300px 0px 0px #7a9022;}
+			.design .mobile {box-shadow: inset 400px 0px 0px #7a9022;}
+
+
+		.programming .line, .programming .title {	
+			background: #d3756f;
+		}
+
+			.programming .php {box-shadow: inset 200px 0px 0px #902222;}
+			.programming .js {box-shadow: inset 270px 0px 0px #902222;}
+			.programming .jquery {box-shadow: inset 230px 0px 0px #902222;}
+			.programming .objc {box-shadow: inset 310px 0px 0px #902222;}
+			.programming .cpp {box-shadow: inset 355px 0px 0px #902222;}
+
+
+
+		.about .info {
+			display: block;
+			float: left;
+			width: 500px;
+		}
+		.about .contacts {
+			display: block;
+			float: right;
+			width: 300px;
+			background: #fff;
+			border: 1px solid #da3610;
+			border-radius: 5px;
+		}
+			.contacts .title {
+				display: block;
+				background: #da3610;
+				border-radius: 0px;
+				margin: 0px;
+				padding: 20px 10px;
+			}
+
+			.contacts .rows div {
+				padding: 9px 10px;
+			}
+
+
+
+
+#diagram {
+	position: relative;
+	z-index: 3;
+	float: left;
+ 	width: 300px;
+ 	height: 300px;
+ 	margin: 0;
+ 	padding: 0;
+ 	margin-bottom: 20px;
+}
+
+#diagram ul {
+	list-style-type: none;
+	width: 300px;
+	height: 300px;
+	padding: 0;
+ 	margin: 0;
+}
+	
+#diagram li {
+	position: absolute;
+	top: 0px;
+	width: 300px;
+	height: 300px;
+ 	padding: 0;
+ 	margin: 0;
+}
+
+#diagram p {
+	width: 300px;
+	height: 300px;
+ 	padding: 0;
+ 	margin: 0;
+}
+
+
+#diagram span { display: block; width: 150px; height: 300px;}
+#diagram ul :nth-child(odd) { clip: rect(0px, 300px, 300px, 150px);}
+#diagram ul :nth-child(even) { clip: rect(0px, 150px, 300px, 0px);}
+.diagramLeft {
+	-moz-border-radius-topleft: 150px;
+	-moz-border-radius-bottomleft: 150px;
+	-webkit-border-top-left-radius: 150px;
+	-webkit-border-bottom-left-radius: 150px;
+	border-top-left-radius: 150px;
+	border-bottom-left-radius: 150px;
+}
+
+.diagramRight {
+	margin-left: 150px;
+	-moz-border-radius-topright: 150px;
+	-moz-border-radius-bottomright: 150px;
+	-webkit-border-top-right-radius: 150px;
+	-webkit-border-bottom-right-radius: 150px;
+	border-top-right-radius: 150px;
+	border-bottom-right-radius: 150px;
+}
+
+#cell1Left span {background: #c3746b;}
+#cell1Right span {background: #c3746b;}
+#cell2Left span {background: #b3bf4f;} 
+#cell2Right span {background: #5192cb;}
+#cell3Left span {background: #c3746b;} 
+#cell3Right span {background: #c3746b;}
+
+/*Pie chart data (degree value) */
+#diagram ul :nth-child(1) p, #diagram ul :nth-child(1) p {-webkit-transform: rotate(220deg); -moz-transform: rotate(300deg); -o-transform: rotate(300deg);}
+#diagram ul :nth-child(2) p, #diagram ul :nth-child(2) p {-webkit-transform: rotate(20deg); -moz-transform: rotate(80deg); -o-transform: rotate(80deg);}
+#diagram ul :nth-child(3) p, #diagram ul :nth-child(3) p {-webkit-transform: rotate(130deg); -moz-transform: rotate(120deg); -o-transform: rotate(120deg);}
+#diagram ul :nth-child(4) p, #diagram ul :nth-child(4) p {-webkit-transform: rotate(200deg); -moz-transform: rotate(200deg); -o-transform: rotate(200deg);}
+
+.diagramOverflow {
+	width: 260px;
+	height: 260px;
+	position: relative;
+	z-index: 666;
+	border-radius: 300px;
+	background: #f5f5f5;
+	margin: 20px 0px 0px 20px;
+}
+
+	.diagramOverflow .title {margin: 110px 0px 0px 75px; position: absolute;}
+	.diagramOverflow .label {
+		position: absolute;
+		font-weight: 700;
+		font-size: 13px;
+
+	}
+	.diagramOverflow .web {margin: 20px 0px 0px 150px; color: #5192cb;}
+	.diagramOverflow .programming {margin: 215px 0px 0px 85px; color: #c3746b;}
+	.diagramOverflow .design {margin: 100px 0px 0px 10px; color: #b3bf4f;}
+		</style>
+        
+	</head>
+	<body>
+		<div id="main">
+			<div id="header">
+				<div id="card">
+					<div class="wrapper">
+						<div class="detail"></div>
+						<ul class="menu">
+							<li><a href="/">Blog</a></li>
+							<li><a href="http://twitter.com/mrVeles">Twitter</a></li>
+                            <li><a href="http://facebook.com/mrVeles">Facebook</a></li>
+						</ul>
+						<div id="profile">
+							<div class="avatar">
+								<img src="avatar.jpg" />
+							</div>
+							<div id="info">
+								<h1 class="name">
+									<a href="/" class="logo">Андрей Велес</a>
+								</h1>
+								<h2 class="description">
+									Веб-дизайн <br /> User Interfaces <br /> iOS разработка
+								</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="body">
+				<div class="white">
+					<div class="wrapper">
+						<div class="block list">
+							<div class="title">Образование</div>
+							<div class="row">
+								<div class="item">
+									Осень 2012 — Настоящее
+								</div>
+								<div class="content">
+									Студент первого курса Киевского Национального Университета имени Тараса Шевченка специальности Программная инженерия факультета Кибернетики.
+								</div>
+							</div>
+							<div class="row">
+								<div class="item">
+									Осень 2008 — Осень 2012
+								</div>
+								<div class="content">
+									Окончил технический лицей НТУУ „КПИ“. 
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="gray">
+					<div class="wrapper">
+						<div class="block experience">
+							<div class="main">
+								<div class="diagram">
+									<div id="diagram">
+										<div class="diagramOverflow">
+											<div class="title">Умения</div>
+											<div class="web label">Верстка</div>
+											<div class="programming label">Программирование</div>
+											<div class="design label">Дизайн</div>
+										</div>
+										<ul>
+											<li id="cell1Right"><p><span class="diagramLeft"></span></p></li> 	
+											<li id="cell1Left"><p><span class="diagramRight"></span></p></li>
+											<li id="cell2Right"><p><span class="diagramLeft"></span></p></li> 	
+											<li id="cell2Left"><p><span class="diagramRight"></span></p></li>
+											<li id="cell3Right"><p><span class="diagramLeft"></span></p></li> 	
+											<li id="cell3Left"><p><span class="diagramRight"></span></p></li>
+										</ul>
+									</div>
+								</div>
+
+
+								<div class="additional">
+									<div class="title" style="font-size: 17px;">Знание языков</div>
+									<div class="row">Русский</div>
+									<div class="row">Украинский</div>
+									<div class="row">Английский (средний, технический)</div>
+								</div>
+
+								<div class="additional">
+									<div class="title" style="font-size: 17px;">Дополнительные навыки</div>
+									<div class="row">Кроссбраузерная верстка</div>
+									<div class="row">Валидная верстка по стандарту W3C</div>
+									<div class="row">Адаптивная верстка страниц</div>
+									<div class="row">Методология БЭМ</div>
+									<div class="row">Работа с фреймворком Twitter Bootstrap</div>
+									<div class="row">SVN и Git</div>
+								</div>
+
+							</div>
+							<div class="rows">
+								<div class="row web">
+									<div class="content">
+										<div class="title">Верстальщик</div>
+										<div class="item">
+											HTML
+											<div class="line html"></div>
+										</div>
+										<div class="item">
+											CSS
+											<div class="line css"></div>
+										</div>
+									</div>
+								</div>
+								<div class="row programming">
+									<div class="content">
+										<div class="title">Программист</div>
+										<div class="item">
+											PHP
+											<div class="line php"></div>
+										</div>
+										<div class="item">
+											JavaScript
+											<div class="line js"></div>
+										</div>
+										<div class="item">
+											jQuery
+											<div class="line jquery"></div>
+										</div>
+										<div class="item">
+											Objective-C
+											<div class="line objc"></div>
+										</div>
+										<div class="item">
+											C++
+											<div class="line cpp"></div>
+										</div>
+									</div>
+								</div>
+								<div class="row design">
+									<div class="content">
+										<div class="title">Дизайнер</div>
+										<div class="item">
+											Adobe Photoshop
+											<div class="line photoshop"></div>
+										</div>
+										<div class="item">
+											UI
+											<div class="line ui"></div>
+										</div>
+										<div class="item">
+											Юзабилити
+											<div class="line usability"></div>
+										</div>
+										<div class="item">
+											Дизайн под мобильные платформы
+											<div class="line mobile"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="white">
+					<div class="wrapper">
+						<div class="block about">
+							<div class="info">
+								<div class="title">Обо мне</div>
+								<div class="content">
+									<p>
+									 — Готов к работе как в команде, так и индивидуально<br />
+									 — Способен к быстрому обучению, самостоятельному решению сложных задач<br />
+									 — Коммуникабельный <br />
+									 — Стрессоустойчивый<br />
+									 — Пунктуальный<br />
+									 — Внимательный <br />
+									 — Исполнительный
+									</p>
+								</div>
+							</div>
+							<div class="contacts">
+								<div class="title">Контакты</div>
+								<div class="rows">
+									<div class="phone">Phone: +38(063) 687-24-93</div>
+									<div class="email">
+										General: mrveles@icloud.com<br />
+										Additional: mrveles@gmail.com
+									</div>
+									<div class="facebook"><a href="http://facebook.com/mrveles">Facebook: mrVeles</a></div>
+									<div class="twitter"><a href="http://twitter.com/mrVeles">Twitter: @mrVeles</a></div>
+									<div class="skype">Skype: mrVeles</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+
+<!-- 
+	WC (Webpage creating) framework v1.0 
+	by Andrew Veles
+
+	http://www.mrveles.com/
+	mrveles@gmail.com
+-->
