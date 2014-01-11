@@ -328,14 +328,6 @@ footer a {
 		font-size: 18px;
 	}
 
-	nav.top .logo {
-		width: 70px;
-		height: 70px;
-		background-size: 100% 100%;
-		-o-background-size: 100% 100%;
-		-moz-background-size: 100% 100%;
-		-webkit-background-size: 100% 100%;
-	}
 }
 
 @media (max-height: 400px) {
@@ -353,8 +345,9 @@ footer a {
 	h1 {
 		display: block;
 		float: right;
-		font-size: 36px;
+		font-size: 30px;
 		color: #444 !important;
+		font-family: "Proxima Nova Regular" !important;
 	}
 	.line {display: none;}
 	section.intro {
@@ -373,7 +366,7 @@ footer a {
 
 @media (max-height: 400px) and (max-width: 480px) {
 	h1 {
-		font-size: 36px;
+		font-size: 30px !important;
 		padding-top: 10px;
 	}
 
