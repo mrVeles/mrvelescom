@@ -1,0 +1,506 @@
+* {
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	outline: 0px;
+}
+
+html,
+body {
+	background: #fff;
+	font-family: "Cardo";
+	font-size: 18px;
+	font-weight: normal;
+	color: #444;
+
+
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+
+	-webkit-appearance: none;
+
+	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+
+@font-face {
+	font-family: "Proxima Nova Bold";
+	src: url("../ft/pn-b.eot");
+	src: url("../ft/pn-b.eot?#iefix") format("embedded-opentype"),
+	url("../ft/pn-b.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Proxima Nova Regular";
+	src: url("../ft/pn-r.eot");
+	src: url("../ft/pn-r.eot?#iefix") format("embedded-opentype"),
+	url("../ft/pn-r.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Cardo";
+	src: url("../ft/c-it.eot");
+	src: url("../ft/c-it.eot?#iefix") format("embedded-opentype"),
+	url("../ft/c-it.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: "Icons";
+	src: 	url("../ft/icons.eot");
+	src: 	url("../ft/icons.eot?#iefix") format("embedded-opentype"),
+		 	url("../ft/icons.ttf") format("truetype"),
+			url("../ft/icons.woff") format("woff"),
+			url("../ft/icons.svg#icons") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: "Icons";
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	color: #dddddd;
+
+	-moz-osx-font-smoothing: grayscale;
+
+	transition: color 0.2s 0s ease;
+	-o-transition: color 0.2s 0s ease;
+	-moz-transition: color 0.2s 0s ease;
+	-webkit-transition: color 0.2s 0s ease;
+}
+
+.icon-be:before {
+	content: "\e600";
+}
+.icon-tw:before {
+	content: "\e601";
+}
+.icon-pt:before {
+	content: "\e602";
+}
+.icon-in:before {
+	content: "\e603";
+}
+.icon-ig:before {
+	content: "\e604";
+}
+.icon-fb:before {
+	content: "\e605";
+}
+.icon-ds:before {
+	content: "\e606";
+}
+
+
+
+.icon-be:hover {color: #005cff;}
+.icon-tw:hover {color: #00acee;}
+.icon-pt:hover {color: #c8232c;}
+.icon-in:hover {color: #0e76a8;}
+.icon-ig:hover {color: #3f729b;}
+.icon-fb:hover {color: #3b5998;}
+.icon-ds:hover {color: #205cc0;}
+
+[class^="icon-"]:hover, [class*=" icon-"]:hover {
+	border-bottom: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Proxima Nova" !important;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+
+h6 {
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+
+h5 {font-size: 24px;}
+h4 {font-size: 32px;}
+h3 {font-size: 48px;}
+h2 {
+	font-size: 56px;
+	letter-spacing: 8px;
+}
+
+h1 {
+	font-size: 96px;
+	letter-spacing: 8px;
+	color: #e29f36;
+}
+
+
+a {
+	color: #e29f36;
+	text-decoration: none;
+	border-bottom: 1px solid transparent;
+	display: inline-block;
+	margin: 0px 0px;
+	line-height: 18px;
+}
+
+a:hover {
+	color: #e29f36;
+	border-bottom: 1px solid #e29f36;
+}
+
+
+.wrapper,
+.wrapper-social {
+	max-width: 660px;
+	display: block;
+	margin: 0px auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;	
+}
+
+nav.top {
+	padding: 40px 0px;
+	display: block;
+	color: #444;
+	text-align: center;
+	font-size: 20px;
+}
+
+nav.top a {
+	height: 24px;
+	color: #444;
+	padding-top: 5px;
+	vertical-align: middle;
+	margin: 0px 10px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+
+nav.top a:hover {
+	color: #444;
+	border-bottom: 1px solid #444;
+}
+
+.logo {
+	width: 90px;
+	height: 90px !important;
+	display: inline-block;
+	background: url("../img/logo.svg") no-repeat;
+	border: 0px;
+}
+
+.line {
+	background: #e29f36;
+	width: 50%;
+	height: 8px;
+	display: inline-block;
+}
+
+section {
+	text-align: center;
+}
+
+.intro {
+	margin: 80px 0px 100px 0px;
+}
+
+.intro h2 {
+	margin-bottom: 40px;
+}
+
+.about {
+	margin-bottom: 80px;
+}
+
+.about h6 {
+	margin-bottom: 40px;
+}
+
+.social {
+	border-top: 2px solid #eeeeee;
+	border-bottom: 2px solid #eeeeee;
+	padding: 60px 0px 55px 0px;
+	text-align: center;
+}
+
+.social a {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	font-size: 50px;
+	margin: 0px 5px;
+}
+
+
+
+
+footer {
+	font-family: "Proxima Nova";
+	font-size: 14px;	
+	padding: 20px 0px 40px 0px;
+	display: block;
+	width: 100%;
+
+}
+
+footer p {
+	display: inline-block;
+	float: left;
+}
+
+footer a {
+	float: right;
+}
+
+
+
+
+
+
+
+/* 
+	RE
+	SP
+	ON
+	SI
+	VE
+*/
+
+@media (max-width: 660px) {
+	.wrapper {
+		padding: 0px 20px;
+	}
+
+	.social a {
+		width: 32px;
+		height: 32px;
+		font-size: 32px;
+		color: #fff;
+	}
+
+	.social {
+		background: #ddd;
+		border: 0px;
+	}
+
+
+	h2 {
+		font-size: 48px;
+	}
+	
+	h1.slide {
+		font-size: 56px;
+	}
+
+}
+
+@media (max-width: 480px) {
+	h2 {
+		font-size: 36px;
+	}
+
+	h1.slide {
+		font-size: 48px;
+	}
+}
+
+@media (max-height: 400px) {
+	footer {display: none}
+	.about {display: none;}
+	h2 {display: none;}
+	nav.top a {
+		display: none;
+	}
+	.logo {
+		display: block !important;
+		float: left;
+	}
+
+	h1 {
+		display: block;
+		float: right;
+		font-size: 36px;
+		color: #444 !important;
+	}
+	.line {display: none;}
+	section.intro {
+		display: block;
+		float: right;
+		margin: -20px 0px 100px 0px;
+		min-height: 100%;
+	}
+
+	.social {
+		display: block;
+		width: 100%;
+		float: left;
+	}
+}
+
+@media (max-height: 400px) and (max-width: 480px) {
+	h1 {
+		font-size: 36px;
+		padding-top: 10px;
+	}
+
+}
+
+
+/* 	
+	CUSTOM 
+	VARIABLES 
+	FOR 
+	TEXT 
+*/
+
+
+.animated {
+	-webkit-animation-duration: 0.5s;
+	   -moz-animation-duration: 0.5s;
+	     -o-animation-duration: 0.5s;
+	        animation-duration: 0.5s;
+	-webkit-animation-fill-mode: both;
+	   -moz-animation-fill-mode: both;
+	     -o-animation-fill-mode: both;
+	        animation-fill-mode: both;
+}
+
+.animated.hinge {
+	-webkit-animation-duration: 0s;
+	   -moz-animation-duration: 0s;
+	     -o-animation-duration: 0s;
+	        animation-duration: 0s;
+}
+
+
+@-webkit-keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateX(-20px);
+	}
+	
+	100% {
+		opacity: 1;
+		-webkit-transform: translateX(0);
+	}
+}
+
+@-moz-keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+		-moz-transform: translateX(-20px);
+	}
+	
+	100% {
+		opacity: 1;
+		-moz-transform: translateX(0);
+	}
+}
+
+@-o-keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+		-o-transform: translateX(-20px);
+	}
+	
+	100% {
+		opacity: 1;
+		-o-transform: translateX(0);
+	}
+}
+
+@keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-20px);
+	}
+	
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.fadeInLeft {
+	-webkit-animation-name: fadeInLeft;
+	-moz-animation-name: fadeInLeft;
+	-o-animation-name: fadeInLeft;
+	animation-name: fadeInLeft;
+}
+
+
+@-webkit-keyframes fadeOutRight {
+	0% {
+		opacity: 1;
+		-webkit-transform: translateX(0);
+	}
+	
+	100% {
+		opacity: 0;
+		-webkit-transform: translateX(20px);
+	}
+}
+
+@-moz-keyframes fadeOutRight {
+	0% {
+		opacity: 1;
+		-moz-transform: translateX(0);
+	}
+	
+	100% {
+		opacity: 0;
+		-moz-transform: translateX(20px);
+	}
+}
+
+@-o-keyframes fadeOutRight {
+	0% {
+		opacity: 1;
+		-o-transform: translateX(0);
+	}
+	
+	100% {
+		opacity: 0;
+		-o-transform: translateX(20px);
+	}
+}
+
+@keyframes fadeOutRight {
+	0% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+	
+	100% {
+		opacity: 0;
+		transform: translateX(20px);
+	}
+}
+
+.fadeOutRight {
+	-webkit-animation-name: fadeOutRight;
+	-moz-animation-name: fadeOutRight;
+	-o-animation-name: fadeOutRight;
+	animation-name: fadeOutRight;
+}
