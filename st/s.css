@@ -323,6 +323,19 @@ footer a {
 	h1.slide {
 		font-size: 48px;
 	}
+
+	nav.top a {
+		font-size: 18px;
+	}
+
+	nav.top .logo {
+		width: 70px;
+		height: 70px;
+		background-size: 100% 100%;
+		-o-background-size: 100% 100%;
+		-moz-background-size: 100% 100%;
+		-webkit-background-size: 100% 100%;
+	}
 }
 
 @media (max-height: 400px) {
