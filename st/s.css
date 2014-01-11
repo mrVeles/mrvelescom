@@ -317,11 +317,11 @@ footer a {
 
 @media (max-width: 480px) {
 	h2 {
-		font-size: 36px;
+		font-size: 30px;
 	}
 
 	h1.slide {
-		font-size: 48px;
+		font-size: 40px;
 	}
 
 	nav.top a {
