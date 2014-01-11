@@ -125,7 +125,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Proxima Nova" !important;
+	font-family: "Proxima Nova Bold" !important;
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -256,7 +256,7 @@ section {
 
 
 footer {
-	font-family: "Proxima Nova";
+	font-family: "Proxima Nova Regular";
 	font-size: 14px;	
 	padding: 20px 0px 40px 0px;
 	display: block;
