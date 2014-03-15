@@ -18,11 +18,10 @@ body {
 	padding: 0px;
 	height: 100%;
 
-	font-smoothing: antialiased;
-
-	-webkit-font-smoothing: antialiased;
 	-webkit-appearance: none;
 
+	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
 }
 
 
@@ -85,7 +84,7 @@ body {
 }
 
 .icon-be:before {
-	content: "\e600";
+	content: "\e607";
 }
 .icon-tw:before {
 	content: "\e601";
@@ -106,6 +105,10 @@ body {
 	content: "\e606";
 }
 
+.icon-dr:before {
+	content: "\e600";
+}
+
 
 
 .icon-be:hover {color: #005cff;}
@@ -115,6 +118,7 @@ body {
 .icon-ig:hover {color: #3f729b;}
 .icon-fb:hover {color: #3b5998;}
 .icon-ds:hover {color: #205cc0;}
+.icon-dr:hover {color: #ea4c89;}
 
 [class^="icon-"]:hover, [class*=" icon-"]:hover {
 	border-bottom: 0px;
@@ -128,14 +132,13 @@ h5,
 h6 {
 	font-family: "Proxima Nova Bold" !important;
 	text-transform: uppercase;
-	font-weight: bold;
+	font-weight: 700;
 }
 
 
 h6 {
-	font-size: 16px;
+	font-size: 18px;
 	letter-spacing: 2px;
-	font-weight: bold;
 }
 
 h5 {font-size: 24px;}
@@ -149,12 +152,12 @@ h2 {
 h1 {
 	font-size: 96px;
 	letter-spacing: 8px;
-	color: #e29f36;
+	color: #af9a75;
 }
 
 
 a {
-	color: #e29f36;
+	color: #af9a75;
 	text-decoration: none;
 	border-bottom: 1px solid transparent;
 	display: inline-block;
@@ -163,8 +166,8 @@ a {
 }
 
 a:hover {
-	color: #e29f36;
-	border-bottom: 1px solid #e29f36;
+	color: #af9a75;
+	border-bottom: 1px solid #af9a75;
 }
 
 
@@ -212,7 +215,7 @@ nav.top a:hover {
 }
 
 .line {
-	background: #e29f36;
+	background: #af9a75;
 	width: 50%;
 	height: 8px;
 	display: inline-block;
@@ -327,9 +330,17 @@ footer a {
 	}
 
 	nav.top a {
-		font-size: 16px;
+		font-size: 18px;
 	}
 
+	nav.top .logo {
+		width: 70px;
+		height: 70px;
+		background-size: 100% 100%;
+		-o-background-size: 100% 100%;
+		-moz-background-size: 100% 100%;
+		-webkit-background-size: 100% 100%;
+	}
 }
 
 @media (max-height: 400px) {
@@ -347,9 +358,8 @@ footer a {
 	h1 {
 		display: block;
 		float: right;
-		font-size: 30px;
+		font-size: 36px;
 		color: #444 !important;
-		font-family: "Proxima Nova Regular" !important;
 	}
 	.line {display: none;}
 	section.intro {
@@ -368,7 +378,7 @@ footer a {
 
 @media (max-height: 400px) and (max-width: 480px) {
 	h1 {
-		font-size: 30px !important;
+		font-size: 36px;
 		padding-top: 10px;
 	}
 
