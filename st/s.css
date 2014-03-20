@@ -152,12 +152,12 @@ h2 {
 h1 {
 	font-size: 96px;
 	letter-spacing: 8px;
-	color: #af9a75;
+	color: #5fc5a7;
 }
 
 
 a {
-	color: #af9a75;
+	color: #5fc5a7;
 	text-decoration: none;
 	border-bottom: 1px solid transparent;
 	display: inline-block;
@@ -166,8 +166,8 @@ a {
 }
 
 a:hover {
-	color: #af9a75;
-	border-bottom: 1px solid #af9a75;
+	color: #5fc5a7;
+	border-bottom: 1px solid #5fc5a7;
 }
 
 
@@ -215,7 +215,7 @@ nav.top a:hover {
 }
 
 .line {
-	background: #af9a75;
+	background: #5fc5a7;
 	width: 50%;
 	height: 8px;
 	display: inline-block;
