@@ -196,6 +196,8 @@ nav.top a:hover {
 	border: 0px;
 }
 
+.logo:hover {border: 0px !important;}
+
 .line {
 	background: #e45c3c;
 	width: 50%;
