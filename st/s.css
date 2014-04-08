@@ -1,3 +1,5 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700");
+
 * {
 	border: 0px;
 	padding: 0px;
@@ -22,26 +24,6 @@ body {
 
 	font-smoothing: antialiased;
 	-webkit-font-smoothing: antialiased;
-}
-
-
-
-@font-face {
-	font-family: "Proxima Nova Bold";
-	src: url("../ft/pn-b.eot");
-	src: url("../ft/pn-b.eot?#iefix") format("embedded-opentype"),
-	url("../ft/pn-b.ttf") format("truetype");
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Proxima Nova Regular";
-	src: url("../ft/pn-r.eot");
-	src: url("../ft/pn-r.eot?#iefix") format("embedded-opentype"),
-	url("../ft/pn-r.ttf") format("truetype");
-	font-weight: normal;
-	font-style: normal;
 }
 
 @font-face {
@@ -130,11 +112,9 @@ h3,
 h4,
 h5,
 h6 {
-	font-family:	"Proxima Nova Bold",
-				 	"Helvetica Neue",
-				 	sans-serif;
+	font-family: "Open Sans" !important;
 	text-transform: uppercase;
-	font-weight: bold;
+	font-weight: 700;
 }
 
 
@@ -154,12 +134,12 @@ h2 {
 h1 {
 	font-size: 96px;
 	letter-spacing: 8px;
-	color: #5fc5a7;
+	color: #e45c3c;
 }
 
 
 a {
-	color: #5fc5a7;
+	color: #e45c3c;
 	text-decoration: none;
 	border-bottom: 1px solid transparent;
 	display: inline-block;
@@ -168,8 +148,8 @@ a {
 }
 
 a:hover {
-	color: #5fc5a7;
-	border-bottom: 1px solid #5fc5a7;
+	color: #e45c3c;
+	border-bottom: 1px solid #e45c3c;
 }
 
 
@@ -212,12 +192,12 @@ nav.top a:hover {
 	width: 90px;
 	height: 90px !important;
 	display: inline-block;
-	background: url("../img/logo.svg") no-repeat;
+	background: url("../img/logo-2.svg") no-repeat;
 	border: 0px;
 }
 
 .line {
-	background: #5fc5a7;
+	background: #e45c3c;
 	width: 50%;
 	height: 8px;
 	display: inline-block;
@@ -263,7 +243,7 @@ section {
 
 
 footer {
-	font-family: "Proxima Nova Regular";
+	font-family: "Open Sans";
 	font-size: 14px;	
 	padding: 20px 0px 40px 0px;
 	display: block;
