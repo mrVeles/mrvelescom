@@ -1,23 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="90px" height="90px" viewBox="0 0 90 90" enable-background="new 0 0 90 90" xml:space="preserve">
-<g>
-	<path fill="#454545" d="M87,3v84H3V3H87 M90,0H0v90h90V0L90,0z"/>
-</g>
-<g>
-	<g>
-		<defs>
-			<rect id="SVGID_1_" x="15.201" y="25.667" width="59.599" height="38.667"/>
-		</defs>
-		<clipPath id="SVGID_2_">
-			<use xlink:href="#SVGID_1_"  overflow="visible"/>
-		</clipPath>
-		<path clip-path="url(#SVGID_2_)" fill="#333333" d="M35.852,35.518l4.89,14.439h-9.778L35.852,35.518z M29.639,25.739
-			L15.201,64.11h11.217l1.898-5.522h15.129l1.898,5.522h11.219L42.065,25.739H29.639z"/>
-		<polygon clip-path="url(#SVGID_2_)" fill="#333333" points="63.581,25.667 54.663,51.818 59.303,64.333 60.303,64.333 
-			74.8,25.667 		"/>
-	</g>
-</g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="108px" height="54px" viewBox="0 0 108 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.1 (7597) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <description>Created with Sketch.</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop" sketch:type="MSArtboardGroup" transform="translate(-458.000000, -485.000000)" fill="#FFE900">
+            <path d="M507.178571,485 L536.026605,539 L565.035714,485 L507.178571,485 Z M516.821429,539 L487.973395,485 L458.964286,539 L516.821429,539 Z" id="Logo" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
 </svg>
