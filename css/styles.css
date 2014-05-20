@@ -181,6 +181,20 @@ a.menu {
 
 }
 
+.empty {
+	width: 400px;
+	height: 360px;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	background: #FFE900;
+	z-index: 99;
+	top: 50%;
+	left: 50%;
+	margin: -200px 0px 0px -180px;
+
+}
+
 @media (max-width: 500px) {
 	.splash .brand {
 		margin: -100px 0px 0px -90px;
