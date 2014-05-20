@@ -211,7 +211,7 @@ a.menu {
 	}
 
 	.play {
-		width: 200% !important;
+		width: 100% !important;
 		height: auto !important;
 		object-fit: cover;
 		top: 0px;
