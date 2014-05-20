@@ -40,7 +40,7 @@ body {
 	font-family: "Roboto Slab";
 	font-size: 14px;
 	font-weight: normal;
-	color: #FFE900;
+	color: rgba(255, 255, 255, 0.4);
 	min-height: 100%;
 	-webkit-appearance: none;
 	font-smoothing: antialiasing;
@@ -104,7 +104,7 @@ a.menu {
 
 .splash {
 	background: #2A2A29;
-	color: #FFE900;
+	color: rgba(255, 255, 255, 0.4);
 	text-align: center;
 	background-size: cover !important; 
 	-moz-background-size: cover !important;
