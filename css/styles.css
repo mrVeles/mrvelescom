@@ -195,7 +195,7 @@ a.menu {
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
 	.splash .brand {
 		margin: -100px 0px 0px -90px;
 		width: 200px;
@@ -208,6 +208,12 @@ a.menu {
 		margin: -100px 0px 0px -90px;
 		width: 200px;
 		height: 180px;
+		background: #FFE900;
+	}
+
+	video, source {
+		cursor: default;
+		display: none;
 	}
 
 	.play {
